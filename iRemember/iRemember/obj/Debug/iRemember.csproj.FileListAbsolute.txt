@@ -1,0 +1,16 @@
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\bin\Debug\iRemember.exe.config
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\bin\Debug\iRemember.exe
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\bin\Debug\iRemember.pdb
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.csprojResolveAssemblyReference.cache
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\MainWindow.g.cs
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\App.g.cs
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember_MarkupCompile.cache
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember_MarkupCompile.lref
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\MainWindow.baml
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.g.resources
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.Properties.Resources.resources
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.csproj.GenerateResource.Cache
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.exe
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.pdb
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\MainWindow - Copy.g.cs
+C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\MainWindow - Copy.baml
