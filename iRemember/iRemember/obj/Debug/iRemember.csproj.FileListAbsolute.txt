@@ -14,3 +14,6 @@ C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemem
 C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\iRemember.pdb
 C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\MainWindow - Copy.g.cs
 C:\Users\Alina Weber\Documents\Visual Studio 2015\Projects\3EHIF Projects\iRemember\iRemember\obj\Debug\MainWindow - Copy.baml
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\iRemember.exe.config
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\iRemember.exe
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\iRemember.pdb
