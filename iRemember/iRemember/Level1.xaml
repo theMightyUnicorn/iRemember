@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:iRemember"
         mc:Ignorable="d"
-        Title="iRemember" Height="768" Width="1366">
+        Title="iRemember" Height="768" Width="1366" Loaded="Window_Loaded">
     <Grid>
 
         <Button x:Name="lvl2btn" Content="Go Back" HorizontalAlignment="Left" Margin="605,56,0,0" VerticalAlignment="Top"
@@ -39,9 +39,9 @@
 
         </Grid>
 
-        <Image x:Name="Bibi" Source="Bibi.jpeg" HorizontalAlignment="Left" Height="425" Margin="218,248,0,0" VerticalAlignment="Top" Width="470" RenderTransformOrigin="0.157,0.553"/>
+        <Image x:Name="Bibi" HorizontalAlignment="Left" Height="425" Margin="218,248,0,0" VerticalAlignment="Top" Width="470" RenderTransformOrigin="0.157,0.553"/>
         <Label x:Name="label" Content="x" Foreground="#FFB9340F" HorizontalAlignment="Left" Margin="1148,362,0,0" VerticalAlignment="Top" FontSize="48" />
-        <Button x:Name="nextBtn" Foreground="White" Background="#FF3ECD3E" Content="Next" HorizontalAlignment="Left" Margin="693,547,0,0" VerticalAlignment="Top" Width="505" Height="126" FontSize="72" FontWeight="Bold"/>
+        <Button x:Name="nextBtn" Foreground="White" Background="#FE3ECD3E" Content="Next" HorizontalAlignment="Left" Margin="693,547,0,0" VerticalAlignment="Top" Width="505" Height="126" FontSize="72" FontWeight="Bold"/>
 
 
 

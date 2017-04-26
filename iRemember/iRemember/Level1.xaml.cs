@@ -24,5 +24,16 @@ namespace iRemember
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            BitmapImage b = new BitmapImage();
+            b.BeginInit();
+            b.UriSource = new Uri("C://Capture2.png");
+           // b.EndInit();
+
+            var image = sender as Image;
+            Bibi.Source = b;
+        }
     }
 }
