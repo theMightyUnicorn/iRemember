@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="87e8ed509fa0456f82a2c430bf4cdcd4" Name="Diagram1">
+      <Diagram DiagramId="7d60dc7556004369a8f807edb2a33512" Name="Diagram1">
         <EntityTypeShape EntityType="iRememberModel.Group" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
         <EntityTypeShape EntityType="iRememberModel.Person" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="iRememberModel.P_G_Group" ManuallyRouted="false" />

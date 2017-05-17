@@ -97,7 +97,7 @@
             <CheckBox Grid.Row="8" VerticalContentAlignment="Center" Margin="18,0,0,0"  />
 
         </Grid>
-        <Image x:Name="Bibi" Source="Bibi.jpeg" HorizontalAlignment="Left" Height="334" Margin="983,191,0,0" VerticalAlignment="Top" Width="325" RenderTransformOrigin="0.157,0.553"/>
+        <Image x:Name="Bibi" HorizontalAlignment="Left" Height="334" Margin="983,191,0,0" VerticalAlignment="Top" Width="325" RenderTransformOrigin="0.157,0.553"/>
         <Label x:Name="label" Foreground="Black" Content="Bibi Sebestianova" HorizontalAlignment="Left" Height="147" Margin="916,567,0,0" 
                VerticalAlignment="Top" Width="378" RenderTransformOrigin="0.376,0.782" FontWeight="Bold" FontSize="24" HorizontalContentAlignment="Center"/>
 

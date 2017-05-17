@@ -30,3 +30,12 @@ C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\MainWindow.
 C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\iRemember.g.resources
 C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\iRemember.Properties.Resources.resources
 C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\iRemember.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\StartWindow.g.cs
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\iRemember_Content.g.cs
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\iRemember.mdf
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\iRemember_log.ldf
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\EntityFramework.dll
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\EntityFramework.xml
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pc\Documents\GitHub\iRemember\iRemember\iRemember\obj\Debug\StartWindow.baml

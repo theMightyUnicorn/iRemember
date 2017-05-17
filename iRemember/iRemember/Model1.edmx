@@ -9,7 +9,7 @@
           <Key>
             <PropertyRef Name="G_Id" />
           </Key>
-          <Property Name="G_Id" Type="int" Nullable="false" />
+          <Property Name="G_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="G_Name" Type="varchar" MaxLength="25" />
         </EntityType>
         <EntityType Name="Person">
@@ -18,8 +18,8 @@
           </Key>
           <Property Name="P_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="P_Firstname" Type="varchar" MaxLength="15" Nullable="false" />
-          <Property Name="P_Vorname" Type="varchar" MaxLength="15" Nullable="false" />
-          <Property Name="P_Image" Type="image" />
+          <Property Name="P_Lastname" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="P_Image" Type="varbinary(max)" />
           <Property Name="P_G_Group" Type="int" />
         </EntityType>
         <Association Name="P_G_Group">
@@ -51,7 +51,7 @@
           <Key>
             <PropertyRef Name="G_Id" />
           </Key>
-          <Property Name="G_Id" Type="Int32" Nullable="false" />
+          <Property Name="G_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="G_Name" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
           <NavigationProperty Name="People" Relationship="Self.P_G_Group" FromRole="Group" ToRole="Person" />
         </EntityType>
@@ -61,7 +61,7 @@
           </Key>
           <Property Name="P_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="P_Firstname" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
-          <Property Name="P_Vorname" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="P_Lastname" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="P_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
           <Property Name="P_G_Group" Type="Int32" />
           <NavigationProperty Name="Group" Relationship="Self.P_G_Group" FromRole="Person" ToRole="Group" />
@@ -105,7 +105,7 @@
               <MappingFragment StoreEntitySet="Person">
                 <ScalarProperty Name="P_Id" ColumnName="P_Id" />
                 <ScalarProperty Name="P_Firstname" ColumnName="P_Firstname" />
-                <ScalarProperty Name="P_Vorname" ColumnName="P_Vorname" />
+                <ScalarProperty Name="P_Lastname" ColumnName="P_Lastname" />
                 <ScalarProperty Name="P_Image" ColumnName="P_Image" />
                 <ScalarProperty Name="P_G_Group" ColumnName="P_G_Group" />
               </MappingFragment>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="iRememberModelStoreContainer" CdmEntityContainer="iRememberEntities">
+    <EntitySetMapping Name="Groups">
+      <EntityTypeMapping TypeName="iRememberModel.Group">
+        <MappingFragment StoreEntitySet="Group">
+          <ScalarProperty Name="G_Id" ColumnName="G_Id" />
+          <ScalarProperty Name="G_Name" ColumnName="G_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="iRememberModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="P_Id" ColumnName="P_Id" />
+          <ScalarProperty Name="P_Firstname" ColumnName="P_Firstname" />
+          <ScalarProperty Name="P_Lastname" ColumnName="P_Lastname" />
+          <ScalarProperty Name="P_Image" ColumnName="P_Image" />
+          <ScalarProperty Name="P_G_Group" ColumnName="P_G_Group" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

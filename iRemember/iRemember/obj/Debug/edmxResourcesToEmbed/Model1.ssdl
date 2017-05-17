@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="iRememberModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="G_Id" />
+    </Key>
+    <Property Name="G_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="G_Name" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="P_Id" />
+    </Key>
+    <Property Name="P_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="P_Firstname" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="P_Lastname" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="P_Image" Type="varbinary(max)" />
+    <Property Name="P_G_Group" Type="int" />
+  </EntityType>
+  <Association Name="P_G_Group">
+    <End Role="Group" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="Person" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Group">
+        <PropertyRef Name="G_Id" />
+      </Principal>
+      <Dependent Role="Person">
+        <PropertyRef Name="P_G_Group" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="iRememberModelStoreContainer">
+    <EntitySet Name="Group" EntityType="Self.Group" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="P_G_Group" Association="Self.P_G_Group">
+      <End Role="Group" EntitySet="Group" />
+      <End Role="Person" EntitySet="Person" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

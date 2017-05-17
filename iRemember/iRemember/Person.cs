@@ -16,7 +16,7 @@ namespace iRemember
     {
         public int P_Id { get; set; }
         public string P_Firstname { get; set; }
-        public string P_Vorname { get; set; }
+        public string P_Lastname { get; set; }
         public byte[] P_Image { get; set; }
         public Nullable<int> P_G_Group { get; set; }
     
